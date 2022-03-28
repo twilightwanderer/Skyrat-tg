@@ -1,0 +1,23 @@
+{
+	"version": 1,
+	"map_name": "Bubble Station",
+	"map_path": "map_files/Bubble",
+	"map_file": [
+		"Bubble_lower.dmm"
+	],
+	"shuttles": {
+		"cargo": "cargo_skyrat",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_box",
+		"emergency": "emergency_box"
+	},
+	"minetype": "none",
+	"job_changes": {
+		"cook": {
+			"additional_cqc_areas": ["/area/service/kitchen/diner"]
+		},
+		"captain": {
+			"special_charter": "moon"
+		}
+	}
+}

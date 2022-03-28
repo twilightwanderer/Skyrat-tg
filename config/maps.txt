@@ -42,6 +42,10 @@ map waterkilostation
 	votable
 endmap
 
+map bubble
+	votable
+endmap
+
 map runtimestation
 endmap
 
